@@ -8,5 +8,5 @@ The purpose of this project was to build a simple website to display a brief art
 
 On the page, I included multiple input boxes that a person visiting the page can use to specify a date, city, state, country, or object shape, or any combination of those details they would like to search for within the table.  I used JavaScript to create a script that will filter the table to only sightings matching the parameters the user specifies.  This image shows what the table and filters look like with no input:
 
-![no filters]("resources/no filters.png")
+![no filters]("resources/no_filters.png")
 
