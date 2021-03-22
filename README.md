@@ -24,7 +24,16 @@ Now, the table displays only rows where the date matches the specified 1/5/2010 
 
 If the user wished to instead search for all sightings in New Jersey, not just those on 1/5/2010, they could delete the date specified in the date filter box, press enter again, then the table would only filter for state, as seen here:
 
-![state_only](state_filter.png)
+![state_only](resources/state_filter.png)
 
+## Summary
+
+This webpage design is simple and effective at allowing the user to find and read UFO sightings based on their desired search criteria, however it could be developed further.
+
+One drawback of the design thus far is that nothing is returned if the user's search parameters are not matched in the table.  For instance, if the user wants to filter to a date on which there are not recording sightings, the site will display an empty table and nothing more.  Similarly, if the user was to misspell a search term, such as city name, the site would display an empty table even if their was a record matching the city the user intended.  This lack of any information about why no search results are displayed can be frustrating and confusing for the user.
+
+To improve upon this shortcoming, code could be added to the script to raise errors and display a message on the site if the search terms used do not match the table.  For instance if the user searches for a date not included in the full table, an error could be raised and some sort of 'date out of range' message could be displayed to the user.
+
+Another possible improvement could be the addition of a filter for the sighting duration.  Because the durations in this column are so varied, the filter would need to be more complex, perhaps grouping the times into a ranges and matching a users search to any sightings that fall in that range.
 
 
